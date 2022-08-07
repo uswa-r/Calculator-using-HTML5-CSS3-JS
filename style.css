@@ -1,0 +1,52 @@
+.container{
+    max-width: 500px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(99, 219, 29, 0.705);  
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+.buttons{
+    color: rgb(18, 189, 18);
+    display: grid;
+    border-bottom: 1px solid rgb(107, 184, 19);
+    border-left: 1px solid rgb(67, 175, 17);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons>div{
+    border-top: 1px solid rgb(58, 165, 16);
+    border-right: 1px solid rgb(44, 161, 14);
+}
+.button{
+    border: 0.5px solid rgb(47, 143, 9);
+    line-height: 70px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#asign{
+    background-color: rgb(14, 15, 14);
+    color: rgb(36, 236, 29);
+}
+#asign:hover{
+    color: black;
+}
+#escape{
+    font-size: 22px;
+    background-color: rgb(112, 15, 15);
+    color: black;
+}
+#escape:hover{
+    background-color: rgb(8, 8, 8);
+    color: rgb(66, 202, 25);
+    transition: 0.3s ease-in-out;
+}
+.button:hover{
+    background-color: rgb(11, 12, 11);
+    color: rgb(31, 197, 25);
+    transition: 0.5s ease-in-out;
+}
